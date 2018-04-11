@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper"
+    tools:context="com.example.android.birthdaycard.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType = "fitXY"
+        android:paddingTop="350dp"
+        android:src="@drawable/bcardimg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="cursive"
+        android:text="Lenora,"
+        android:textAlignment="center"
+        android:textColor="#a37ac9"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_margin="8dp"
+        android:fontFamily="cursive"
+        android:text="I still remember the first time I laid eyes on you. You were so beautiful right from the start, and with every year, you grow even more beautiful. Hope you know how much I love you and how grateful I am to have you in my life!"
+        android:textAlignment="center"
+        android:textColor="#a37ac9"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_margin="16dp"
+        android:fontFamily="cursive"
+        android:text="Happy Birthday!"
+        android:textAlignment="center"
+        android:textColor="#a37ac9"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a37ac9"
+        android:paddingLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="cursive"
+        android:text="from, Alton"
+        android:textColor="#f6bee5"
+        android:textSize="32sp" />
+
+
+</RelativeLayout>
